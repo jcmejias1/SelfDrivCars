@@ -18,22 +18,22 @@ The goals / steps of this project are the following:
 ### Convert the image to grayscale
 #### Python function used cv2.cvtColor
 
-<img src="./examples/gray_image.jpg" width="400px" height="240px" />
+<img src="./examples/gray_image.png" width="400px" height="240px" />
 
 ### Smooth image to reduce noise
 #### Python function used cv2.GaussianBlur
 
-<img src="./examples/blur_image.jpg" width="400px" height="240px" />
+<img src="./examples/blur_image.png" width="400px" height="240px" />
 
 ### Get edges of the images using Canny's method
 #### Python function used cv2.Canny
 
-<img src="./examples/canny_image.jpg" width="400px" height="240px" />
+<img src="./examples/canny_image.png" width="400px" height="240px" />
 
 ### Proposed mask and to retain area of interest
 #### Python function used cv2.fillPoly
 
-<img src="./examples/mask_image.jpg" width="400px" height="240px" />
+<img src="./examples/mask_image.png" width="400px" height="240px" />
 
 ### Retain only area of interest
 #### Python function used cv2.bitwise_and
@@ -41,7 +41,7 @@ The goals / steps of this project are the following:
 ### Extract the points that form the lines
 #### Python function used cv2.HoughLines
 
-<img src="./examples/filtered_image.jpg" width="400px" height="240px" />
+<img src="./examples/filtered_image.png" width="400px" height="240px" />
 
 ### Draw the lines
 #### Python function used cv2.line
@@ -49,7 +49,7 @@ The goals / steps of this project are the following:
 ### Merge original image and lines
 #### Python function used cv2.addWeighted
 
-<img src="./examples/red.jpg" width="400px" height="240px" />
+<img src="./examples/red.png" width="400px" height="240px" />
 
 ## Video processing
 
