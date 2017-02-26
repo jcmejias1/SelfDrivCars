@@ -10,7 +10,7 @@ The goals / steps of this project are the following:
 
 ### Pipeline
 
-###1. I started the project with the sequences of transformation every frame of the video should have in order to extract the lane positions from each frame. I researched about all the functions involved and adjusted the parameters to the optimum values for a clearer detection. After that created a function for each of the transformations, below and example of them:
+###1. I started the project with the sequences of transformation every frame of the video should have in order to extract the lane positions for each frame. I researched about all the functions involved and adjusted the parameters to the optimum values for a clearer detection. After that created a function for each of the transformations, below and example of them:
 
 ### Convert image to a np array 
 #### Python function used mpimg.imread
@@ -64,4 +64,4 @@ One potential shortcoming would be what would happen when there is a change in t
 
 ###3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to include a function to filter base on line a range of slopes that would only contain the 2 lanes.
+A possible improvement would be to include a function to filter lines based on a range of slopes that would only contain slopes that could be possible lanes.
